@@ -13,14 +13,14 @@ This is a [craco](https://github.com/sharegate/craco) plugin that adds [raw-load
 
 First, follow the [`craco` Installation Instructions](https://github.com/sharegate/craco/blob/master/packages/craco/README.md##installation) to install the `craco` package, create a `craco.config.js` file, and modify the scripts in your `package.json`.
 
-Then install `craco-raw-loader`:
+Then install `@baristalabs/craco-raw-loader`:
 
 ```bash
-$ yarn add craco-raw-loader
+$ yarn add @baristalabs/craco-raw-loader
 
 # OR
 
-$ npm i -S craco-raw-loader
+$ npm i -S @baristalabs/craco-raw-loader
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ $ npm i -S craco-raw-loader
 Here is a complete `craco.config.js` configuration file that adds raw-loader to `create-react-app`:
 
 ```js
-const CracoRawLoaderPlugin = require("craco-raw-loader");
+const CracoRawLoaderPlugin = require("@baristalabs/craco-raw-loader");
 
 module.exports = {
   plugins: [{ plugin: CracoRawLoaderPlugin }]
@@ -44,7 +44,7 @@ A single option named test sets the pattern that will be used
 For example, to configure `raw-loader` to return files ending with .foo as a string:
 
 ```js
-const CracoRawLoaderPlugin = require("craco-raw-loader");
+const CracoRawLoaderPlugin = require("@baristalabs/craco-raw-loader");
 
 module.exports = {
   plugins: [
