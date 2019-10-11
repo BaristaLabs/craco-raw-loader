@@ -1,6 +1,6 @@
 {
   "name": "@baristalabs/craco-raw-loader",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A raw loader plugin for craco / react-scripts / create-react-app ",
   "main": "lib/craco-raw-loader.js",
   "scripts": {
