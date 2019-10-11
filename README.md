@@ -6,8 +6,8 @@ This is a [craco](https://github.com/sharegate/craco) plugin that adds [raw-load
 
 `craco-raw-loader` is tested with:
 
-- `react-scripts`: `^2.1.1`
-- `@craco/craco`: `^3.1.1`
+- `react-scripts`: `^3.2.1`
+- `@craco/craco`: `^5.5.0`
 
 ## Installation
 
