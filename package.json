@@ -1,6 +1,6 @@
 {
   "name": "@baristalabs/craco-raw-loader",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "A raw loader plugin for craco / react-scripts / create-react-app ",
   "main": "lib/craco-raw-loader.js",
   "scripts": {
@@ -22,14 +22,14 @@
   "homepage": "https://github.com/BaristaLabs/craco-raw-loader#readme",
   "devDependencies": {
     "clone": "^2.1.2",
-    "coveralls": "^3.0.7",
+    "coveralls": "^3.0.9",
     "jest": "^24.9.0",
     "react-scripts": "^3.2.0",
-    "typescript": "^3.6.4",
+    "typescript": "^3.7.2",
     "webpack": "^4.41.2"
   },
   "dependencies": {
-    "@craco/craco": "^5.6.1",
-    "raw-loader": "^3.1.0"
+    "@craco/craco": "^5.6.2",
+    "raw-loader": "^4.0.0"
   }
 }
